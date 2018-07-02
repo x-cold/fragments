@@ -2,9 +2,29 @@
 
 Daily shell script~
 
+## 进程控制
+
+## Kill Process
+
+```bash
+sudo kill -s 9 $(ps aux | grep 'node' | grep -v grep|  awk '{print $2}')
+```
+
+```bash
+sudo kill `pgrep vim`
+```
+
+## Fork Bomb
+
+> Detail: https://linux.cn/article-5685-1.html
+
+```bash
+:(){:|:&};:
+```
+
 ## VirtualBox
 
-- 后台启动
+- windows 后台启动
 
 ```cmd
 @echo off
@@ -14,7 +34,7 @@ VBoxManage.exe startvm "HadoopMaster" -type headless
 VBoxManage.exe startvm "HadoopSlave1" -type headless
 ```
 
-- 停止虚拟机
+- windows 停止虚拟机
 
 ```cmd
 @echo off
