@@ -1,3 +1,8 @@
+# 其他结构化知识
+
+1、PowerShell: [https://github.com/x-cold/TipsAboutPowerShell](https://github.com/x-cold/TipsAboutPowerShell)
+2、Windows Batch: [https://github.com/x-cold/TipsAboutBatch](https://github.com/x-cold/TipsAboutBatch)
+
 # Linux
 
 ## 进程控制
