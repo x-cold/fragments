@@ -1,6 +1,13 @@
+# 提示
+
+此项目存放的是一些笔者日常开发总结的一些知识片段，现在改到语雀进行维护。
+
+https://www.yuque.com/yinzhi/dgritd
+
 # 其他结构化知识
 
 1、PowerShell: [https://github.com/x-cold/TipsAboutPowerShell](https://github.com/x-cold/TipsAboutPowerShell)
+
 2、Windows Batch: [https://github.com/x-cold/TipsAboutBatch](https://github.com/x-cold/TipsAboutBatch)
 
 # Linux
